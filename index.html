@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gia Sư Tiếng Đức, Tiếng Anh, Toán Tại Đức</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #ffe6f2;
+            text-align: left;
+        }
+        header {
+            background: #ff66b2;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            border-radius: 0 0 20px 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #ff66b2;
+        }
+        .btn {
+            background: #ff3399;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background: #cc0077;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-container, .price-container {
+            display: none;
+            background: #fff0f5;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ff66b2;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background: #ff99cc;
+        }
+    </style>
+    <script>
+        function togglePrice() {
+            var priceSection = document.getElementById("priceSection");
+            priceSection.style.display = (priceSection.style.display === "none" || priceSection.style.display === "") ? "block" : "none";
+        }
+        function toggleForm() {
+            var formSection = document.getElementById("formSection");
+            formSection.style.display = (formSection.style.display === "none" || formSection.style.display === "") ? "block" : "none";
+        }
+        function validateAge(input) {
+            if (input.value < 0) {
+                input.value = "";
+                alert("Vui lòng nhập số tuổi hợp lệ!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>Gia Sư Tiếng Đức, Tiếng Anh và Toán   - Online & Offline Tại Đức</header>
+
+    <div class="container">
+		       <p><h2> Giới thiệu một chút về em ạ </h2></p>
+			   <br>
+    <p>Em hiện là học sinh tại một trường <strong>Gymnasium ở Đức.</strong>Em nhận dạy gia sư <strong>online hoặc offline tại Aachen, </strong> giúp các bé <strong>cải thiện tiếng Đức và các môn học như Toán, Tiếng Anh, cũng như các môn phụ khác</strong> nữa ạ. Em cũng nhận <strong>dạy giao tiếp cho người lớn,</strong> giúp mọi người tự tin giao tiếp hơn trong cuộc sống hằng ngày và trong công việc.</p>
+      <p><strong>Với hơn 1 năm kinh nghiệm, em luôn cố gắng tạo ra những bài học dễ hiểu, vui nhộn và phù hợp nhất với mỗi bé. Để giúp các em cảm thấy rằng việc học cũng có thể trở nên rất thú vị.</p></strong>
+<p><img src="https://daykemcaptoc.vn/wp-content/themes/daykemcaptoc/assets/images/bg/gia-su-day-kem.png" width="30%"/></p>
+   
+     <h2> Gia sư cho bé</h2>
+<p>Em hiểu rằng việc tìm gia sư phù hợp cho bé không phải là điều dễ dàng, đặc biệt khi ba mẹ muốn chọn một người vừa có thể giúp bé tiến bộ, vừa có thể làm bạn đồng hành trong quá trình học. Chính vì vậy, em luôn sẵn sàng <strong> mời ba mẹ cho bé tham gia buổi học thử 45 phút miễn phí.</strong> Đây là cơ hội tuyệt vời để bé làm quen với em, để ba mẹ cảm nhận xem liệu cách dạy của em có phù hợp đối với bé không.</p>
+<p>Trong buổi học thử, em sẽ nói chuyện cùng bé và tạo không khí học tập thật thoải mái, vui vẻ. Sau buổi học, nếu ba mẹ thấy bé thoải mái và muốn tiếp tục, em sẽ thiết kế các bài học phù hợp với khả năng và sở thích của bé, giúp bé học một cách vui vẻ và hứng thú nhất.</p>
+<p>Em rất mong được đồng hành cùng bé trên hành trình học tập này! 😊</p>
+<br>
+<h2>Các môn học </h2>
+
+    <ul>
+<p><li>Cho các em <strong>lớp 1-4:</strong> Tất cả các môn học, bao gồm <strong>Toán, Tiếng Đức, Tiếng Anh và các môn phụ khác.</strong></li></p>
+<p><li>Cho các em <strong>lớp 5-7: Tiếng Đức, Tiếng Anh và các môn học phụ khác, </strong>giúp các bé củng cố kiến thức và nâng cao khả năng học tập.</li></p>
+<li>Cho các bé <strong>muốn cải thiện tiếng Đức: </strong>Em nhận dạy tiếng Đức <strong>cho các bé chưa biết tiếng</strong> , muốn học từ đầu và muốn <strong>cải thiện khả năng giao tiếp, phát âm và từ vựng.</strong></li>
+    </ul>
+
+<br>
+<h2>Cách Thức Học Và Lịch Học Linh Hoạt</h2>
+<p><h4>Em luôn muốn tạo ra môi trường học tập thoải mái và linh hoạt nhất cho các bé. Em hiểu rằng lịch trình của các em có thể rất bận rộn, nên em luôn cố gắng điều chỉnh sao cho thuận tiện nhất:</h4></p>
+<br>
+<ul>
+    <p><li><strong>Lịch học linh hoạt:</strong> Nếu ba mẹ có việc bận và bé không thể tham gia buổi học như đã định, chỉ cần báo trước cho em một chút thôi ạ. Em sẽ sắp xếp buổi học bù vào ngày khác phù hợp nhất. Tuy nhiên, nếu ba mẹ báo sát giờ quá thì em rất tiếc không thể bù được, vì em cũng cần thời gian để sắp xếp cho các bé khác nữa.</li></p>
+
+<p><li><strong>Khi em có việc bận:</strong> Nếu có hôm nào em bận đột xuất, em sẽ báo trước cho ba mẹ để mình có thể sắp xếp lại lịch học phù hợp cho bé nhé!</li></p>
+
+<p><li><strong>Ghi chép nội dung học và bài tập:</strong> Mọi nội dung bé đã học sẽ được em ghi lại cẩn thận. Nếu ba mẹ cần xem lại hoặc muốn biết tiến trình học của bé, chỉ cần nhắn cho em, em sẽ gửi lại ngay ạ. Nếu bé muốn có thêm bài tập để ôn luyện ở nhà, em rất sẵn lòng chuẩn bị! </li></p>
+
+<p><li><strong>Chuẩn bị cho từng buổi học:</strong> Trước mỗi buổi học, nếu ba mẹ có yêu cầu đặc biệt hoặc bé cần ôn tập phần nào, vui lòng nhắn cho em biết trước nhé. Điều này giúp em chuẩn bị bài giảng tốt nhất để bé học hiệu quả hơn. Nếu ba mẹ không có yêu cầu cụ thể, em sẽ dạy theo bài em đã chuẩn bị sẵn để đảm bảo bé luôn tiến bộ từng ngày. </li></p>
+</ul>
+
+<br>
+<h2>Cách Thức Liên Hệ Và Đăng Ký Học <h2>
+<p><h4>Ba mẹ có thể dễ dàng liên hệ với em qua các cách sau:</h4></p>
+<ul>
+<p><li>📞 Số Whatsapp: 0176 5569 5835</li></p>
+<p><li>🌐 Facebook cá nhân:<a href=https://www.facebook.com/share/17rUsoJrDe/?mibextid=wwXIfr> Trang Facebook</a></li></p>
+</ul>
+<p>(Ba mẹ có thể nhắn tin trực tiếp qua Messenger hoặc qua Whatsapp cho em để được tư vấn nhanh chóng ạ.)</p>
+<br>
+<ul>
+<p><li>Ngoài ra, ba mẹ cũng có thể <strong>đăng ký nhanh chóng ngay trên trang web,</strong> chỉ cần điền một vài thông tin cơ bản về bé, em sẽ liên hệ lại để sắp xếp lịch học phù hợp nhất.</li></p>
+<p><li>📌 <strong>Bảng giá</strong> chi tiết ba mẹ có thể xem khi click vào, giúp ba mẹ dễ dàng lựa chọn gói học phù hợp với nhu cầu của bé.</li></p>
+</ul>
+
+
+        <div class="image-container">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhO3SourNq9pkPvB3DGQYsDHVpK_kjMoOl8g&s" 
+     style="width: 15%;" 
+     alt="Gia Sư Học Sinh">
+
+        </div>
+
+        <button class="btn" onclick="togglePrice()">Xem Bảng Giá</button>
+        <div id="priceSection" class="price-container">
+            <h2>BẢNG GIÁ HỌC PHÍ GIA SƯ</h2>
+            <table>
+                <tr>
+                    <th>Loại Học</th>
+                    <th>1 buổi/tuần</th>
+                    <th>2 buổi/tuần</th>
+                    <th>3 buổi/tuần</th>
+                    <th>4 buổi/tuần</th>
+                </tr>
+                <tr>
+                    <td>Online 45 phút</td>
+                    <td>11,5€ (46€/tháng)</td>
+                    <td>11,5€ (92€/tháng)</td>
+                    <td>11€ (132€/tháng)</td>
+                    <td>11€ (176€/tháng)</td>
+                </tr>
+                <tr>
+                    <td>Online 60 phút</td>
+                    <td>13€ (52€/tháng)</td>
+                    <td>13€ (104€/tháng)</td>
+                    <td>12,5€ (150€/tháng)</td>
+                    <td>12,5€ (200€/tháng)</td>
+                </tr>
+                <tr>
+                    <td>Offline</td>
+                    <td>19€ - 37€/tiết</td>
+                    <td>18€ - 36€/tiết</td>
+                    <td>17€ - 35€/tiết</td>
+                    <td>—</td>
+                </tr>
+            </table>
+        </div>
+
+        <button class="btn" onclick="toggleForm()">Đăng Ký Học</button>
+        <div id="formSection" class="form-container">
+            <form action="mailto:kinokosuzuki161009@gmail.com" method="post">
+                <label>Tên học sinh:</label>
+                <input type="text" name="name" required>
+                
+                <label>Tuổi:</label>
+                <input type="number" name="age" min="1" oninput="validateAge(this)" required>
+                
+                <label>Số điện thoại:</label>
+                <input type="tel" name="phone" required>
+                
+                <label>Email:</label>
+                <input type="email" name="email" required>
+                
+<label>Môn học muốn học:</label>
+<select name="subjects" multiple required size="4">
+    <option value="Toán">Toán</option>
+    <option value="Tiếng Đức">Tiếng Đức</option>
+    <option value="Tiếng Anh">Tiếng Anh</option>
+    <option value="Môn Học Phụ">Môn Học Phụ</option>
+</select>
+
+
+                <label>Ghi chú:</label>
+                <textarea name="notes" rows="4" placeholder="Nhập ghi chú tại đây (Ví dụ: giờ học mong muốn, điểm yếu muốn cải thiện...)"></textarea>
+
+                <button type="submit" class="btn">Gửi Đăng Ký</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
