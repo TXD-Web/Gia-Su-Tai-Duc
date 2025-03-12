@@ -194,36 +194,33 @@
             </table>
         </div>
 
-        <button class="btn" onclick="toggleForm()">Đăng Ký Học</button>
-        <div id="formSection" class="form-container">
-            <form action="mailto:kinokosuzuki161009@gmail.com" method="post">
-                <label>Tên học sinh:</label>
-                <input type="text" name="name" required>
-                
-                <label>Tuổi:</label>
-                <input type="number" name="age" min="1" oninput="validateAge(this)" required>
-                
-                <label>Số điện thoại:</label>
-                <input type="tel" name="phone" required>
-                
-                <label>Email:</label>
-                <input type="email" name="email" required>
-                
-<label>Môn học muốn học:</label>
-<select name="subjects" multiple required size="4">
-    <option value="Toán">Toán</option>
-    <option value="Tiếng Đức">Tiếng Đức</option>
-    <option value="Tiếng Anh">Tiếng Anh</option>
-    <option value="Môn Học Phụ">Môn Học Phụ</option>
-</select>
+    <form action="process_form.php" method="post">
+    <label>Tên học sinh:</label>
+    <input type="text" name="name" required>
 
+    <label>Tuổi:</label>
+    <input type="number" name="age" min="1" required>
 
-                <label>Ghi chú:</label>
-                <textarea name="notes" rows="4" placeholder="Nhập ghi chú tại đây (Ví dụ: giờ học mong muốn, điểm yếu muốn cải thiện...)"></textarea>
+    <label>Số điện thoại:</label>
+    <input type="tel" name="phone" required>
 
-                <button type="submit" class="btn">Gửi Đăng Ký</button>
-            </form>
-        </div>
-    </div>
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Môn học muốn học:</label>
+    <select name="subjects[]" multiple required>
+        <option value="Toán">Toán</option>
+        <option value="Tiếng Đức">Tiếng Đức</option>
+        <option value="Tiếng Anh">Tiếng Anh</option>
+        <option value="Môn Học Phụ">Môn Học Phụ</option>
+    </select>
+
+    <label>Ghi chú:</label>
+    <textarea name="notes" rows="4"></textarea>
+
+    <button type="submit">Gửi Đăng Ký</button>
+</form>
+
+       
 </body>
 </html>
